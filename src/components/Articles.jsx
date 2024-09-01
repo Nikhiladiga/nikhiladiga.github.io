@@ -46,7 +46,7 @@ const Articles = () => {
       {articles && (
         <SimpleGrid
           justifyItems="center"
-          minChildWidth="37.5rem"
+          minChildWidth="35rem"
           width="80%"
           gap="2rem"
           mx="auto"
