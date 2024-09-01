@@ -26,8 +26,8 @@ import {
 const Experience = () => {
   const { colorMode, _ } = useColorMode();
   return (
-    <Box marginTop="30rem">
-      <Heading paddingLeft="10rem" paddingBottom="10rem">
+    <Box marginTop="10rem">
+      <Heading paddingLeft="10rem" paddingBottom="5rem">
         My Experience
       </Heading>
       <VerticalTimeline lineColor={colorMode == "dark" ? "#fff" : "#282828"}>
