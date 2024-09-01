@@ -1,4 +1,4 @@
-import React, { useTransition } from "react";
+import React from "react";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
@@ -21,9 +21,10 @@ const Landing = () => {
   return (
     <Box>
       <Topbar />
-      <Box paddingTop={32} className="child">
+      <Box className="child">
         <Flex
           width="100%"
+          height="90vh"
           gap={24}
           flexDirection={"row"}
           justifyContent={"center"}
